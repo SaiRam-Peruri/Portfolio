@@ -7,18 +7,31 @@ const About = () => {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <img
-            src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c"
-            alt="Professional headshot"
+            src="https://images.unsplash.com/photo-1682695794947-170c92542009?auto=format&fit=crop&w=987&q=80"
+            alt="DevOps and software development"
             className="rounded-lg shadow-lg w-full h-[400px] object-cover"
           />
         </div>
         <div>
-          <h3 className="text-2xl font-semibold mb-4">Your Name</h3>
+          <h3 className="text-2xl font-semibold mb-4">Sai Ram Peruri</h3>
           <p className="text-gray-600 mb-6">
-            A passionate professional with expertise in both Cloud Infrastructure and Software Engineering.
-            [Your brief introduction will go here]
+            I am a passionate engineer with a strong foundation in both Software Development and Cloud Infrastructure. 
+            I’ve worked on designing and building robust cloud environments using AWS, implemented secure and scalable CI/CD pipelines, 
+            and developed end-to-end solutions that bridge DevOps with clean application architecture.
           </p>
-          
+
+          <p className="text-gray-600 mb-4">
+            I’ve also served as a Teaching Assistant at the University of Massachusetts Lowell:
+          </p>
+          <ul className="text-gray-600 list-disc ml-5 mb-6 space-y-2">
+            <li>
+              <strong>AWS Cloud Computing (Aug 2024 – Dec 2024):</strong> Graded 10+ hands-on cloud assignments and capstone projects focused on infrastructure design using AWS services like EC2, S3, Lambda, IAM, and CloudFormation.
+            </li>
+            <li>
+              <strong>C/C++ Programming (Jan 2025 – May 2025):</strong> Currently evaluating assignments and quizzes in Gradescope and Blackboard, offering detailed feedback on C/C++ code quality and logic.
+            </li>
+          </ul>
+
           <div className="flex space-x-4">
             <a
               href="https://github.com/SaiRam-Peruri"
