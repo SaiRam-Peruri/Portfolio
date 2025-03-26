@@ -7,10 +7,10 @@ const Navbar = () => {
   const location = useLocation();
 
   const navItems = [
-    { name: 'About', path: '/#' },
-    { name: 'Skills', path: '/skills' },
-    { name: 'Projects', path: '/projects' },
-    { name: 'Contact', path: '/contact' },
+    { name: 'About', path: '/portfolio/about' },
+    { name: 'Skills', path: '/portfolio/skills' },
+    { name: 'Projects', path: '/portfolio/projects' },
+    { name: 'Contact', path: '/portfolio/contact' },
   ];
 
   return (
